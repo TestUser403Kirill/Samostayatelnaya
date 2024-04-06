@@ -7,9 +7,9 @@ int main() {
 		std::cout << "Enter a number: ";
 	std::cin >> number;
 
-	int square = number * number;
+	int cube = number * number * number;
 
-	std::cout << "The square of " << number << " is: " << square << std::endl;
+	std::cout << "The cube of " << number << " is: " << cube << std::endl;
 
 	return 0;
 }
